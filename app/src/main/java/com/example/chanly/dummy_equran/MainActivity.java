@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Cache cache = new DiskBasedCache(getCacheDir(), 1024 * 1024); // 1MB cap
         ListView mSurahLV = findViewById(R.id.surah);
-        mProgressBar = findViewById(R.id.progress_bar);
+        mProgressBar = findViewById(R.id.progress_bar);aaa
 // Set up the network to use HttpURLConnection as the HTTP client.
         Network network = new BasicNetwork(new HurlStack());
 
