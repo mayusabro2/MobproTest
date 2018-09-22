@@ -27,7 +27,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     RequestQueue mRequestQueue;
-    ArrayList<Surah> mListSurah;
+    ArrayList<Surah> mListSurah;a
     SurahAdapter mSurahAdapter;
     LinearLayout mProgressBar;
     @Override
