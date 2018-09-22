@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@android:color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:background="@color/colorPrimary"
+            android:id="@+id/surah_number"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            tools:text="1"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center_vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:id="@+id/surah_name_latin_tv"
+                tools:text="Nama Surah"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"/>
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/surah_ayahs_number_tv"
+                tools:text="120"
+                android:background="@color/lightGrey"
+                android:textSize="12sp"
+                android:padding="2dp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/surah_name_trans"
+            android:layout_width="match_parent"
+            tools:text="Arti Surah"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:layout_height="25dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/surah_name_arabic_tv"
+        android:layout_width="0dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center_vertical"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        tools:text="Nama Surah Arabic"
+        android:layout_marginEnd="16dp" />
+</LinearLayout>
